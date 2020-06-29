@@ -1,0 +1,84 @@
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+#subtotal{
+    width: 100%;
+    height: 100vh;
+    background-image: url('krishnan.jpg');
+    background-size: cover;
+}
+
+#letters{                                      /* div of introduction of main page */
+    background-color:transparent;
+    height: 100vh;
+    width: 100%;
+    
+    position: relative;
+}
+h1{                                           /* "WELCOME TO MY SITE" writing part */
+    color:  rgba(212, 209, 209, 0.6 );
+    letter-spacing: 3px;
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-right: 7vw;
+    margin-top: 290px;
+} 
+
+/* Animation 
+p {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation 
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+} */
+
+/* cursor animations 
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+/*#photo{
+    height: 100vh;
+    width: 100%;
+    background-color: sandybrown;
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+h3 {
+    font-size: 2.3rem;
+    
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: right;
+    overflow: hidden;
+    
+  }
+h3 span.typed-text {
+    font-weight: normal;
+    color: #edad29;
+    margin-right: 1vw;
+  }
+  h3 span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-right: 7vw;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  h3 span.cursor.typing {
+    animation: ;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
