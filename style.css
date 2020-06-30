@@ -1,11 +1,18 @@
+*{
+    margin:0%;
+  }
+
 body{
     font-family: 'Fira Sans Condensed', sans-serif;
+    background-color: rgba(0, 0, 0, .9);
+    width: 100%;
 }
 #subtotal{
     width: 100%;
     height: 100vh;
-    background-image: url('krishnan.jpg');
+    background-image: url('krishnann.jpg');
     background-size: cover;
+    position: relative;
 }
 
 #letters{                                      /* div of introduction of main page */
@@ -13,47 +20,23 @@ body{
     height: 100vh;
     width: 100%;
     
-    position: relative;
+    position: absolute;
 }
 h1{                                           /* "WELCOME TO MY SITE" writing part */
-    color:  rgba(212, 209, 209, 0.6 );
-    letter-spacing: 3px;
+    color:  rgba(212, 209, 209, 0.9 );
+    letter-spacing: 2px;
     font-size: 2.2em;
     font-weight: bold;
-    margin-right: 7vw;
-    margin-top: 290px;
+    margin-right: 3.7vw;
+    margin-top: 390px;
 } 
 
-/* Animation 
-p {
-  animation: animated-text 4s steps(29,end) 1s 1 normal both,
-             animated-cursor 600ms steps(29,end) infinite;
-}
 
-/* text animation 
-
-@keyframes animated-text{
-  from{width: 0;}
-  to{width: 472px;}
-} */
-
-/* cursor animations 
-
-@keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
-  to{border-right-color: transparent;}
-}
-/*#photo{
-    height: 100vh;
-    width: 100%;
-    background-color: sandybrown;
-}*/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 h3 {
-    font-size: 2.3rem;
-    
+    font-size: 2.3rem;                                /*Animated text area*/
     font-weight: bold;
     letter-spacing: 0.1rem;
     text-align: right;
@@ -62,7 +45,7 @@ h3 {
   }
 h3 span.typed-text {
     font-weight: normal;
-    color: #edad29;
+    color: rgb(250, 75, 6);
     margin-right: 1vw;
   }
   h3 span.cursor {
@@ -81,4 +64,27 @@ h3 span.typed-text {
     50% { background-color: transparent; }
     99% { background-color: transparent; }
     100%  { background-color: #ccc; }
+  }
+  #navs{
+    background-color: transparent;
+    width: 38vw;
+    height: 55vh;
+    position: absolute;
+    z-index: 1;
+    text-align: right;
+    margin-left: 61.6vw;
+    margin-top: 2vh;
+  }
+
+  #copyright{                                              /*Copyright divs*/
+    color: white;
+    width: 100%;
+    height: 10vh;
+    background-color: #110d07;
+    text-align: center;
+    padding-top: 4vh;
+  }
+  
+  .point{
+    color: #edad29;
   }
