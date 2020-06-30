@@ -28,7 +28,7 @@ h1{                                           /* "WELCOME TO MY SITE" writing pa
     font-size: 2.2em;
     font-weight: bold;
     margin-right: 3.7vw;
-    margin-top: 390px;
+    margin-top: 360px;
 } 
 
 
@@ -82,7 +82,7 @@ h3 span.typed-text {
     height: 10vh;
     background-color: #110d07;
     text-align: center;
-    padding-top: 4vh;
+    padding-top: 5vh;
   }
   
   .point{
